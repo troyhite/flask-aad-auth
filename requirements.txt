@@ -1,0 +1,8 @@
+Flask>=1,<2
+werkzeug>=1,<2
+flask_session~=0.3.2
+git+https://github.com/azure-samples/ms-identity-python-samples-common
+pyopenssl>19,<20
+markupsafe==2.0.1
+msal==1.16.0
+msal-extensions==0.3.0
