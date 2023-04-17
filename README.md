@@ -2,6 +2,8 @@
 
 This is a simple Flask web application that demonstrates how to authenticate users with Azure Active Directory (AD) and redirect them to a secured page after successful login. The application uses the Microsoft Authentication Library (MSAL) for Python to perform the authentication.
 
+![Azure Architecture](images/azure-architecture.png "Azure Architecture")
+
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fuser%2Frepo%2Fmaster%2Fazuredeploy.json)
 
 ## Features
