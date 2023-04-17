@@ -43,7 +43,7 @@ def authorized():
 
     if 'access_token' in result:
         session['user'] = result['id_token_claims']
-        return redirect("https://10.0.6.5")
+        return redirect("http://10.0.6.85")
     else:
         return "Error: Access token not found."
 
